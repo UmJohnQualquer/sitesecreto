@@ -1,0 +1,121 @@
+
+body {
+    background-color: #18171D;
+}
+
+.cabeçalho_main {
+    display: flex;
+    justify-content: center;
+
+    background-color: #18171D;
+    border: 1px solid #353531;
+    border-radius: 25px;
+    
+}
+
+.cabeçalho_main img {
+    width: 250px;
+    height: 115px;
+}
+
+.cabeçalho_botoes {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.botoes {
+    border-left: 1px solid #353531;
+    border-bottom: 1px solid #353531; 
+    border-right: 1px solid #353531; 
+    background-color: #202020;
+
+    color: white;
+    font-family: 'Poppins', sans-serif;;
+
+    padding-left: 35px;
+    padding-right: 35px;
+    margin-left: 3px;
+}
+
+.carta {
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+}
+
+.botoes a:link, a:visited {
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+  }
+
+.botoes a:hover {
+    color: rgb(149, 247, 93);
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+  }
+
+.sessao {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    max-width: fit-content;
+}
+
+.sessao img{
+    width: 800px;
+    height: 750px;
+}
+
+.sessao1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.sessao1 img{
+    width: 2000px;
+    height: 1000px;
+}
+
+.socorro {
+    display: flex;
+    justify-content: center;
+}
+
+.socorro img{
+    width: 1200px;
+}
+
+.print{
+    display: flex;
+    flex-direction: column;
+
+    margin-top: 25px;
+}
+
+.prints{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+    margin-top: 25px;
+}
+
+.prints img{
+    width: 350px;
+}
+
+.printss{
+    display: flex;
+    justify-content: center;
+
+    margin-top: 25px;
+}
+
+.printss img{
+    width: 550px;
+}
